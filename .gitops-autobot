@@ -1,3 +1,4 @@
 changeMakers:
-  - name: time
-    fileMatchRegex: *.yaml
+  -  name: time
+     fileMatchRegex:
+       - *.yaml
