@@ -1,4 +1,4 @@
 changeMakers:
   -  name: time
      fileMatchRegex:
-       -  ".*\.yaml"
+       -  ".*\\.yaml"
