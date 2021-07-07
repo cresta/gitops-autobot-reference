@@ -1,0 +1,13 @@
+name: Build Project
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Example PR check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Grep for failure
+        run: ! git grep -q 'failure=true' 
