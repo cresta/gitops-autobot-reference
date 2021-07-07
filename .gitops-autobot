@@ -1,4 +1,5 @@
 changeMakers:
   -  name: time
+     autoApprove: true
      fileMatchRegex:
        -  ".*\\.yaml"
