@@ -3,3 +3,4 @@ changeMakers:
      autoApprove: true
      fileMatchRegex:
        -  ".*\\.yaml"
+allowAutoReview: true
