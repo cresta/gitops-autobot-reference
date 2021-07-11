@@ -1,6 +1,7 @@
 changeMakers:
   -  name: time
      autoApprove: true
+     autoMerge: true
      fileMatchRegex:
        -  ".*\\.yaml"
 allowAutoReview: true
