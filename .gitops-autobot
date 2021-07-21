@@ -6,5 +6,8 @@ changeMakers:
        -  ".*\\.yaml"
      data:
        roundTo: 1h
+  -  name: helm
+     fileMatchRegex:
+       -  ".*\\.yaml"
 allowAutoReview: true
 allowAutoMerge: true
