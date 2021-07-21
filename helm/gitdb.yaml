@@ -1,0 +1,21 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: gitdb
+  namespace: gitdb
+spec:
+  releaseName: gitdb
+  chart:
+    repository: https://cresta.github.io/gitdb/
+    name: gitdb
+    version: 0.1.25
+  values:
+    image:
+      tag: master-gh.241-a9aef22
+    extraVolumeMounts:
+      - mountPath: /etc/jwt
+        name: gitdb-jwt-keys
+        readOnly: true
+    ingress:
+      enabled: false
