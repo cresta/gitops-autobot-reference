@@ -1,5 +1,6 @@
 changeMakers:
-  -  name: goget
+  -  name: cmd
+     which: goget
   -  name: time
      autoApprove: true
      autoMerge: true
