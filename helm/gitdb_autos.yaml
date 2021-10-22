@@ -10,7 +10,7 @@ spec:
     # gitops-autobot: changer=helm versionConstraint=0.1.x autoAccept=true autoMerge=true
     repository: https://cresta.github.io/gitdb/
     name: gitdb
-    version: 0.1.25
+    version: 0.1.26
   values:
     image:
       tag: master-gh.241-a9aef22
